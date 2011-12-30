@@ -1,4 +1,8 @@
 FirstApp::Application.routes.draw do
+  get "pages/Accueil"
+
+  get "pages/Contacts"
+
   resources :messages
 
   resources :utilisateurs
