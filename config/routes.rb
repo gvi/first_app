@@ -2,6 +2,7 @@ FirstApp::Application.routes.draw do
   get "pages/Accueil"
 
   get "pages/Contacts"
+  get "pages/About"
 
   resources :messages
 
